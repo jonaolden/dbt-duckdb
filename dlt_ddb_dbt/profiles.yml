@@ -1,0 +1,13 @@
+dlt_ddb_dbt:
+  outputs:
+    dev:
+      type: duckdb
+      schema: main
+      path: md:my_db
+      threads: 1
+    local:
+      type: duckdb
+      schema: main
+      path: local.duckdb
+      threads: 1
+  target: dev

@@ -1,0 +1,160 @@
+[0m14:19:04.650545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cac7a36c210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cac7a564490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cac7a34c810>]}
+
+
+============================== 14:19:04.657473 | f47363ab-f341-4835-bf2f-fe8129702f28 ==============================
+[0m14:19:04.657473 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:19:04.658141 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:19:04.668956 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'PosixPath'.. Dictionary: {'dir': PosixPath('/home/vscode/.dbt')}
+[0m14:19:04.669445 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:20:11.530508 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.11/site-packages/dbt/include/starter_project
+[0m14:20:11.534289 [info ] [MainThread]: 
+Your new dbt project "ddbdbtdblt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:20:11.535259 [info ] [MainThread]: Setting up your profile.
+[0m14:20:27.706493 [info ] [MainThread]: Profile ddbdbtdblt written to /home/vscode/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m14:20:27.709616 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 83.10263, "process_in_blocks": "95064", "process_kernel_time": 0.170839, "process_mem_max_rss": "125100", "process_out_blocks": "80", "process_user_time": 1.227662}
+[0m14:20:27.710341 [debug] [MainThread]: Command `dbt init` succeeded at 14:20:27.710192 after 83.10 seconds
+[0m14:20:27.710965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cac7a50e850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cac7a362710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cac7a36c890>]}
+[0m14:20:27.711602 [debug] [MainThread]: Flushing usage events
+[0m14:20:28.089607 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:23:37.936892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4e02c1e590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4e02e277d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4e02dd6b50>]}
+
+
+============================== 14:23:37.945363 | 30f95156-4a4c-4983-a863-0051c2f1e074 ==============================
+[0m14:23:37.945363 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:23:37.946502 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m14:23:37.956054 [info ] [MainThread]: dbt version: 1.9.2
+[0m14:23:37.957939 [info ] [MainThread]: python version: 3.11.11
+[0m14:23:37.958534 [info ] [MainThread]: python path: /usr/local/bin/python3.11
+[0m14:23:37.959077 [info ] [MainThread]: os info: Linux-6.5.0-1025-azure-x86_64-with-glibc2.36
+[0m14:23:38.042039 [info ] [MainThread]: Using profiles dir at /home/vscode/.dbt
+[0m14:23:38.042657 [info ] [MainThread]: Using profiles.yml file at /home/vscode/.dbt/profiles.yml
+[0m14:23:38.043074 [info ] [MainThread]: Using dbt_project.yml file at /workspaces/dbt-duckdb/dbt_project.yml
+[0m14:23:38.045609 [info ] [MainThread]: adapter type: duckdb
+[0m14:23:38.046129 [info ] [MainThread]: adapter version: 1.8.4
+[0m14:23:38.046655 [info ] [MainThread]: Configuration:
+[0m14:23:38.047109 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:23:38.047574 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:23:38.047954 [info ] [MainThread]: Required dependencies:
+[0m14:23:38.048354 [debug] [MainThread]: Executing "git --help"
+[0m14:23:38.051516 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:23:38.052104 [debug] [MainThread]: STDERR: "b''"
+[0m14:23:38.052527 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:23:38.053695 [info ] [MainThread]: Connection:
+[0m14:23:38.054814 [info ] [MainThread]:   database: dev
+[0m14:23:38.055322 [info ] [MainThread]:   schema: main
+[0m14:23:38.055827 [info ] [MainThread]:   path: dev.duckdb
+[0m14:23:38.056347 [info ] [MainThread]:   config_options: None
+[0m14:23:38.056853 [info ] [MainThread]:   extensions: None
+[0m14:23:38.057360 [info ] [MainThread]:   settings: {}
+[0m14:23:38.057865 [info ] [MainThread]:   external_root: .
+[0m14:23:38.058639 [info ] [MainThread]:   use_credential_provider: None
+[0m14:23:38.059507 [info ] [MainThread]:   attach: None
+[0m14:23:38.061570 [info ] [MainThread]:   filesystems: None
+[0m14:23:38.062109 [info ] [MainThread]:   remote: None
+[0m14:23:38.063171 [info ] [MainThread]:   plugins: None
+[0m14:23:38.067508 [info ] [MainThread]:   disable_transactions: False
+[0m14:23:38.068787 [info ] [MainThread]: Registered adapter: duckdb=1.8.4
+[0m14:23:38.174340 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m14:23:38.197983 [debug] [MainThread]: Using duckdb connection "debug"
+[0m14:23:38.198485 [debug] [MainThread]: On debug: select 1 as id
+[0m14:23:38.198841 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:23:38.210191 [debug] [MainThread]: SQL status: OK in 0.011 seconds
+[0m14:23:38.211089 [debug] [MainThread]: On debug: Close
+[0m14:23:38.212480 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:23:38.212940 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:23:38.213320 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </workspaces/dbt-duckdb/dbt_project.yml> not found
+
+[0m14:23:38.214177 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.33553407, "process_in_blocks": "7536", "process_kernel_time": 0.224503, "process_mem_max_rss": "139700", "process_out_blocks": "56", "process_user_time": 1.232797}
+[0m14:23:38.214674 [debug] [MainThread]: Command `dbt debug` failed at 14:23:38.214573 after 0.34 seconds
+[0m14:23:38.215038 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:23:38.215404 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4e02dd6850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4dfed0de90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4e02c303d0>]}
+[0m14:23:38.215823 [debug] [MainThread]: Flushing usage events
+[0m14:23:38.608514 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:24:38.707496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8c75566350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8c750b8e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8c752c7d50>]}
+
+
+============================== 14:24:38.712611 | aff188b0-6435-47c7-ae0a-a91699b98f96 ==============================
+[0m14:24:38.712611 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:24:38.713334 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:25:01.873690 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.11/site-packages/dbt/include/starter_project
+[0m14:25:01.882621 [info ] [MainThread]: 
+Your new dbt project "dlt_ddb_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:25:01.883382 [info ] [MainThread]: Setting up your profile.
+[0m14:25:05.492129 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 26.828976, "process_in_blocks": "0", "process_kernel_time": 0.183634, "process_mem_max_rss": "125776", "process_out_blocks": "80", "process_user_time": 1.137737}
+[0m14:25:05.492756 [debug] [MainThread]: Command `dbt init` succeeded at 14:25:05.492581 after 26.83 seconds
+[0m14:25:05.493291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8c7507eb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8c78d9e190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8c78d9dfd0>]}
+[0m14:25:05.493739 [debug] [MainThread]: Flushing usage events
+[0m14:25:05.875650 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:25:44.709839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7def138d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7ded66b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7ded67350>]}
+
+
+============================== 14:25:44.715001 | 7c2af4ef-9045-49c8-8406-24a99f14a37d ==============================
+[0m14:25:44.715001 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:25:44.715660 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:25:44.722135 [info ] [MainThread]: dbt version: 1.9.2
+[0m14:25:44.722742 [info ] [MainThread]: python version: 3.11.11
+[0m14:25:44.723237 [info ] [MainThread]: python path: /usr/local/bin/python3.11
+[0m14:25:44.723627 [info ] [MainThread]: os info: Linux-6.5.0-1025-azure-x86_64-with-glibc2.36
+[0m14:25:44.803914 [info ] [MainThread]: Using profiles dir at /home/vscode/.dbt
+[0m14:25:44.804515 [info ] [MainThread]: Using profiles.yml file at /home/vscode/.dbt/profiles.yml
+[0m14:25:44.804940 [info ] [MainThread]: Using dbt_project.yml file at /workspaces/dbt-duckdb/dbt_project.yml
+[0m14:25:44.805401 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m14:25:44.806294 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.13757847, "process_in_blocks": "0", "process_kernel_time": 0.135269, "process_mem_max_rss": "126684", "process_out_blocks": "8", "process_user_time": 1.181617}
+[0m14:25:44.806796 [debug] [MainThread]: Command `dbt debug` failed at 14:25:44.806691 after 0.14 seconds
+[0m14:25:44.807212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7db6ccfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7e2a396d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bd7e2a39fd0>]}
+[0m14:25:44.807648 [debug] [MainThread]: Flushing usage events
+[0m14:25:45.158693 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:26:09.034052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70bbfa085d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70bbfa085a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70bbfa085d90>]}
+
+
+============================== 14:26:09.039099 | 7a9adc39-4cc9-48fa-9a6c-4a4fc77016cf ==============================
+[0m14:26:09.039099 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:26:09.039778 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m14:26:09.046073 [info ] [MainThread]: dbt version: 1.9.2
+[0m14:26:09.046683 [info ] [MainThread]: python version: 3.11.11
+[0m14:26:09.047139 [info ] [MainThread]: python path: /usr/local/bin/python3.11
+[0m14:26:09.047521 [info ] [MainThread]: os info: Linux-6.5.0-1025-azure-x86_64-with-glibc2.36
+[0m14:26:09.127937 [info ] [MainThread]: Using profiles dir at /home/vscode/.dbt
+[0m14:26:09.128546 [info ] [MainThread]: Using profiles.yml file at /home/vscode/.dbt/profiles.yml
+[0m14:26:09.128977 [info ] [MainThread]: Using dbt_project.yml file at /workspaces/dbt-duckdb/dbt_project.yml
+[0m14:26:09.129425 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m14:26:09.130303 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.13720788, "process_in_blocks": "0", "process_kernel_time": 0.176811, "process_mem_max_rss": "126856", "process_out_blocks": "0", "process_user_time": 1.121142}
+[0m14:26:09.130805 [debug] [MainThread]: Command `dbt debug` failed at 14:26:09.130707 after 0.14 seconds
+[0m14:26:09.131197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70bbf9ee3990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70bbfa086a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70bbfdbe2110>]}
+[0m14:26:09.131628 [debug] [MainThread]: Flushing usage events
+[0m14:26:09.518422 [debug] [MainThread]: An error was encountered while trying to flush usage events

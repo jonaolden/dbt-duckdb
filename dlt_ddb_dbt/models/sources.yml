@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: dlt
+    database: dlt_data  
+    schema: available_hospital_beds  
+    tables:
+      - name: kolada_data
