@@ -19,7 +19,7 @@ destination = dlt.destinations.motherduck(f"md:{database_name}?motherduck_token=
 pipeline = dlt.pipeline(
     pipeline_name="_initial_available_hospital_beds_pipeline",
     destination=destination,
-    dataset_name="available_hospital_beds"
+    dataset_name="kolada_data"
 )
 
 # ✅ API Query Function
@@ -63,7 +63,7 @@ if all_data:
 
     # ✅ Load the DataFrame into MotherDuck
     print(f"🚀 Writing Kolada yearly data to MotherDuck (DB: {database_name})...")
-    pipeline.run(final_df, table_name="kolada_data", write_disposition="append")
+    pipeline.run(final_df, table_name="available_hospital_beds", write_disposition="append")
     print("✅ Kolada API data successfully appended to MotherDuck!")
 
 else:
