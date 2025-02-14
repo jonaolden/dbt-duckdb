@@ -1,8 +1,8 @@
-version: 2
-
 sources:
-  - name: dlt
-    database: dlt_data  
-    schema: available_hospital_beds  
+  - name: kolada 
+    database: source
+    schema: raw  
     tables:
-      - name: kolada_data
+      - name: kolada_hospital_beds
+      - name: kolada_municipalities
+      - name: kolada_inhabitants

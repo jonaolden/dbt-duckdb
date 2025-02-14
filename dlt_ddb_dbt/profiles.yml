@@ -3,11 +3,19 @@ dlt_ddb_dbt:
     dev:
       type: duckdb
       schema: main
-      path: md:my_db
+      path: md:dev
       threads: 1
-    local:
+      attach:
+        - path: md:source
+          alias: source
+
+    prod:
       type: duckdb
       schema: main
-      path: local.duckdb
+      path: md:prod
       threads: 1
+      attach:
+        - path: md:source
+          alias: source
+
   target: dev
